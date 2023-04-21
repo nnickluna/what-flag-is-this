@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.2em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+input {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.response {
+  position: absolute;
+  text-align: center;
+  overflow: visible;
+  display: block;
+  margin: 0 auto;
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
+}
+
+#flagHere {
+  position: absolute;
+  visibility: hidden;
+  width: 72px;
+  top: 45%;
+  left: calc(50% - 36px);
+}
+
+#ans {
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 0.5em;
+  visibility: visible;
+  font-family: 'Chivo Mono', monospace;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.run {
+  position: absolute;
+  top: 60%;
+  left: calc(50% - 130px);
+  width: 260px;
+  height: 60px;
+}
